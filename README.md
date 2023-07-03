@@ -17,12 +17,13 @@ The Kc edit Application is a powerful desktop text editing application developed
 - Save text
 - Write text
 - Find and Replace
+- Words count
 
 ## Getting Started
 
 To get started with the KC edit application, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/KasunChathuranga3732/`
+1. Clone the repository: `git clone https://github.com/KasunChathuranga3732/kc-edit.git`
 2. Set up the necessary configurations.
 3. Install the required dependencies and libraries.
 4. Build and Run the application.
@@ -37,4 +38,13 @@ Copyright &copy; 2023. All Rights Reserved.
 For any inquiries or support, please contact [Kasun Chathuranga](mailto:kasunchathuranga3732@gmail.com).
 
 
+## Screen Shots
+### UI
+![Alt Text](./images/ui.png)
+
+### Drop text
+![Alt Text](./images/droptext.png)
+
+### Find text 
+![Alt Text](./images/find.png)
 
