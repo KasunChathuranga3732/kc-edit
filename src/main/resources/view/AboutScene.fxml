@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="380.0" prefWidth="350.0" style="-fx-background-color: mintcream;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.editor.controller.AboutSceneController">
+   <children>
+      <VBox alignment="CENTER" layoutX="29.0" layoutY="200.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="185.0" fitWidth="202.0" pickOnBounds="true" preserveRatio="true" VBox.vgrow="ALWAYS">
+               <image>
+                  <Image url="@../icon/logo.png" />
+               </image>
+            </ImageView>
+            <Label text="KC edit" textFill="#145bc9">
+               <font>
+                  <Font name="Ubuntu Italic" size="25.0" />
+               </font>
+            </Label>
+            <Label text="2023.0.0" />
+            <Label text="KCedit is a small and lightweight text editor" />
+            <Label text="Copyright  2023" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
