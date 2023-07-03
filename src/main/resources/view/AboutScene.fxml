@@ -23,7 +23,7 @@
                </font>
             </Label>
             <Label text="2023.0.0" />
-            <Label text="KCedit is a small and lightweight text editor" />
+            <Label text="KC edit is a small and lightweight text editor" />
             <Label text="Copyright  2023" />
          </children>
       </VBox>

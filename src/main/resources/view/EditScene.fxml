@@ -137,15 +137,24 @@
          <children>
             <HBox alignment="CENTER" spacing="10.0">
                <children>
-                  <TextField fx:id="txtFind" prefHeight="25.0" prefWidth="235.0" promptText="Find " HBox.hgrow="ALWAYS" />
+                  <TextField fx:id="txtFind" prefHeight="25.0" prefWidth="235.0" promptText="Find " HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin></TextField>
                   <Button fx:id="btnUp" mnemonicParsing="false" onAction="#btnUpOnAction" prefWidth="90.0" text="Find UP" />
                   <Button fx:id="btnDown" mnemonicParsing="false" onAction="#btnDownOnAction" prefWidth="90.0" text="Find Down" />
                   <CheckBox fx:id="chkMatchCase" mnemonicParsing="false" prefWidth="110.0" selected="true" text="Match case" />
                </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
             </HBox>
             <HBox alignment="CENTER" spacing="10.0">
                <children>
-                  <TextField fx:id="txtReplace" prefHeight="25.0" prefWidth="235.0" promptText="Replace Text" HBox.hgrow="ALWAYS" />
+                  <TextField fx:id="txtReplace" prefHeight="25.0" prefWidth="235.0" promptText="Replace Text" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin></TextField>
                   <Button fx:id="btnReplace" mnemonicParsing="false" onAction="#btnReplaceOnAction" prefWidth="90.0" text="Replace" />
                   <Button fx:id="btnReplaceAll" mnemonicParsing="false" onAction="#btnReplaceAllOnAction" prefWidth="90.0" text="Replace All" />
                   <Label fx:id="lblResult" prefWidth="110.0" text="No Search">
@@ -156,8 +165,11 @@
                </children>
             </HBox>
          </children>
+         <padding>
+            <Insets bottom="5.0" />
+         </padding>
       </VBox>
-      <TextArea fx:id="txtEditor" layoutY="54.0" prefHeight="200.0" prefWidth="200.0" wrapText="true" AnchorPane.bottomAnchor="21.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="120.0" />
+      <TextArea fx:id="txtEditor" layoutY="54.0" prefHeight="200.0" prefWidth="200.0" wrapText="true" AnchorPane.bottomAnchor="21.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="125.0" />
       <HBox alignment="CENTER" layoutX="225.0" layoutY="572.0" spacing="150.0" style="-fx-background-color: HONEYDEW;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <children>
             <Label fx:id="lblWords" alignment="TOP_CENTER" prefHeight="20.0" prefWidth="150.0">
